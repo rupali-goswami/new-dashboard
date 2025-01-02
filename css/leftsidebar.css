@@ -1,28 +1,3 @@
-@font-face {
-  font-family: 'inter'; 
-  src: url('../fonts/inter.woff2') format('woff2');
-  font-weight: normal; 
-  font-style: normal; 
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'inter';
-}
-html, body {
-    height: 100%;
-        background-color: #161616;
-}
-.full_dashboard {
-    background-color: #161616;
-    display: flex;
-    width: 100%;
-}
-
-
 .leftsidebar {
     width: 244px;
     background-color: #161616;
