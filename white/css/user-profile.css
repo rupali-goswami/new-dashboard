@@ -1,0 +1,133 @@
+.rightsidebar {
+    width: calc(100% - 244px);
+    border-radius: 30px;
+    padding: 32px;
+}
+.under_profile {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 40px;
+    height: 100%;
+    padding-right: 20px;
+}
+.rightsidebar .user_details .user_data h2,
+.rightsidebar .user_details .user_data h3 {
+    color: #161616;
+    font-size: 16px;
+    line-height: 24px;
+}
+.rightsidebar .user_data h5 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #7C7C7C;
+}
+.rightsidebar .user_img img {
+    width: 90px;
+    height: 90px;
+    border-radius: 5px;
+}
+.change_user_profile input.input_field {
+    font-family: Inter;
+    font-size: 12px !important;
+    font-weight: 500;
+    line-height: 20px !important;
+    text-align: left;
+    font-style: normal;
+    border: 1px solid #E5E7EB;
+    height: 36px;
+    padding: 8px 8px 8px 12px;
+    border-radius: 4px;
+    width: 100%;
+}
+.change_user_profile form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.change_user_profile .btn.update_btn {
+    background-color: #161616;
+    height: 36px;
+    padding: 4px 20px 4px 20px;
+    border-radius: 5px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    width: 83px;
+    display: block;
+    border: 0;
+}
+.change_user_profile h2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #161616;
+}
+.change_user_profile {
+    margin-top: 40px;
+}
+.rightsidebar .user_img, .rightsidebar .user_img img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.rightsidebar .user_img span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    justify-content: center;
+    background-color: #16161673;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+.under_profile {
+    padding: 24px;
+    border-radius: 20px;
+}
+}
+
+
+@media (max-width: 767px) {
+.rightsidebar {
+    padding: 12px;
+    width: 100%;
+}
+.under_profile {
+    padding: 16px;
+}
+.rightsidebar .user_details .user_data h2, 
+.rightsidebar .user_details .user_data h3,
+.rightsidebar .user_data h5 {
+    font-size: 14px;
+    line-height: 22px;
+}
+.rightsidebar .user_img img {
+    width: 80px;
+    height: 80px;
+}
+.under_profile span.humberger_icon {
+    right: 20px;
+    top: 40px;
+}
+}
